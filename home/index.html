@@ -7,55 +7,103 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
         <title>Colegio Hernán Cortés | ¡Fieles al deber!</title>
         <link rel="stylesheet" href="./src/css/body.css"></link>
-        <link rel="stylesheet" href="./src/semantic/semantic.min.css"></link>
+        <link rel="stylesheet" href="./src/semantic/semantic.css"></link>
         <link rel="stylesheet" href="./src/css/componentes.css"></link>
+        <link rel="stylesheet" href="./src/css/slider.css"></link>
         <link rel="shortcut icon" href="./data/ui/favicon.ico"></link>
     </head>
     <body>
-        <!-- Menú fijo de página -->
-        <div id="encabezado" class="ui inverted fixed menu">
-            <div class="ui container">
-                <a href="#" class="header item">
-                    <img class="logo" src="./data/img/logohernancortez.png"/>
-                    Colegio Hernán Cortés
-                </a>
-                <a href="#" class="item">Home</a>
-                <div class="ui simple dropdown item">
-                    Inscripciones
-                    <i class="dropdown icon"></i>
-                    <div class="menu">
-                    <a class="item" href="#">Link Item</a>
-                    <a class="item" href="#">Link Item</a>
-                    <div class="divider"></div>
-                    <div class="header">Header Item</div>
-                    <div class="item">
+        <div class="ui grid">
+            <!-- Menú fijo de página -->
+            <div id="encabezado" class="ui inverted top fixed menu">
+                <div class="ui container">
+                    <a href="#" class="header item">
+                        <img class="logo" src="./data/img/logohernancortez.png"/>
+                        Colegio Hernán Cortés
+                    </a>
+                    <div class="ui simple dropdown item">
+                        Inscripciones
                         <i class="dropdown icon"></i>
-                        Sub Menu
                         <div class="menu">
                         <a class="item" href="#">Link Item</a>
                         <a class="item" href="#">Link Item</a>
+                        <div class="divider"></div>
+                        <div class="header">Header Item</div>
+                        <div class="item">
+                            <i class="dropdown icon"></i>
+                            Sub Menu
+                            <div class="menu">
+                            <a class="item" href="#">Link Item</a>
+                            <a class="item" href="#">Link Item</a>
+                            </div>
+                        </div>
+                            <a class="item" href="#">Link Item</a>
                         </div>
                     </div>
-                        <a class="item" href="#">Link Item</a>
-                    </div>
+                </div>
+                <div class="right menu">
+                    <div class="ui green button">WhatsApp</div>
+                    <div class="ui button">Educamos</div>
                 </div>
             </div>
         </div>
-        <div class="ui main container">
-            <h1 class="ui header">¡Bienvenido al sitio web oficial del Colegio Hernán Cortés!</h1>
-            <div class="ui container">
-                <div class="ui two column grid">
-                    <div class="ui column">
-                        <p>Este sitio aún está en construcción ☹️.</p>
-                        <p>Pero no te preocupes, mientras te mostramos los datos para reinscripciones 😎</p>
-                        <img class="ui centered image" src="./data/img/enconstruccion.jpeg"></img>
-                    </div>
-                    <div class="ui column">
-                        <h1>Inscripciones</h1>
-                        <p><h2><a class="subrayado" href="./paginas/inscripciones/inscripciones-primaria.html">👧 Primaria</a> 👈 click aquí</h2></p>
-                        <p><h2><a class="subrayado" href="./paginas/inscripciones/inscripciones-primaria.html">🙋‍♀️ Secundaria</a> 👈 click aquí</h2></p>
-                    </div>
-                </div>
+        <div class="ui hidden divider"></div>
+        <div class="ui hidden divider"></div>
+        <div class="ui vertical segment">
+            <!-- Div de banners publicitarios -->
+            <!-- las imágenes deben ser de 1410 x 280 pc y móviles 360 x 400 -->
+            <section id="container-slider">
+                <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="arrow circle left icon"></i></a>
+                <a href="javascript: fntExecuteSlide('next');" class="arrowNext"><i class="arrow circle right icon"></i></a>
+                <ul class="listslider">
+                    <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+                    <li><a itlist="itList_1" href="#"></a></li>
+                    <li><a itlist="itList_2" href="#"></a></li>
+                </ul>
+                <ul class="slide" id="slider">
+                    <li class="blurring dimmable image" style="background-image: url('https://raw.githubusercontent.com/ValorKand/servidor-de-imagenes/main/bannersit/ban1.jpeg'); z-index:0; opacity: 1;">
+                        <div class="ui inverted dimmer">
+                            <div class="content">
+                                <div class="center">
+                                    <div class="content_slider">
+                                        <!-- Aquí puede ir contenido de texto para el slider -->
+                                        <button class="ui inverted button">Ver más</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="blurring dimmable image" style="background-image: url('https://raw.githubusercontent.com/ValorKand/servidor-de-imagenes/main/bannersit/ban2.jpeg'); ">
+                        <div class="ui inverted dimmer">
+                            <div class="content">
+                                <div class="center">
+                                    <div class="content_slider">
+                                        <!-- Aquí puede ir contenido de texto para el slider -->
+                                        <button class="ui inverted button">Ver más</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="blurring dimmable image" style="background-image: url('https://raw.githubusercontent.com/ValorKand/servidor-de-imagenes/main/bannersit/ban3.jpeg'); ">
+                        <div class="ui inverted dimmer">
+                            <div class="content">
+                                <div class="center">
+                                    <div class="content_slider">
+                                        <!-- Aquí puede ir contenido de texto para el slider -->
+                                        <button class="ui inverted button">Ver más</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+               </ul>
+            </section>
+            <div class="ui center aligned segment">
+                <div class="ui red button">↓</div>
             </div>
         </div>
         <!-- Píe de página -->
@@ -102,6 +150,8 @@
                 </div>
             </div>
         </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="./src/semantic/semantic.min.js"></script>
+        <script src="./src/js/slider.js"></script>
     </body>
 </html>
