@@ -1,24 +1,21 @@
+@import url('sfpro.css');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 #container-slider {
     position: relative;
     display: block;
     width: 100%;
-    padding-top: 1%;
 }
-
 #slider {
     position: relative;
     display: block;
     width: 100%;
-    height: 80vh;
-    min-height: 100%;
+    height: 81vh; /*altura del slider*/
+    min-height: 500px;
 }
-
 #slider li {
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,22 +34,19 @@
     z-index: -1;
     opacity: 0;
 }
-
 #container-slider .arrowPrev, #container-slider .arrowNext{
     font-size: 30pt;
     color: rgba(204, 204, 204, 0.65);
     cursor: pointer;
     position: absolute;
-    top: 45%;
-    left: 40px;
+    top: 50%;
+    left: 50px;
     z-index: 2;
 }
-
 #container-slider .arrowNext {
     left: initial;
     right: 50px !important;
 }
-
 .content_slider{
     padding: 15px 30px;
     color: #FFF;
@@ -63,6 +57,7 @@
     text-align: center;
 }
 .content_slider h2{
+    font-family: 'SF Pro Display';
     font-size: 30pt;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -70,14 +65,14 @@
 }
 .content_slider p {
     font-size: 15pt;
+    font-family: 'arial';
     color: #FFF;
     margin-bottom: 20px;
 }
-
 #slider li .content_slider{
+    background: rgba(0, 0, 0, 0.50);
     padding: 10px 125px;
 }
-
 .content_slider{
     display: -webkit-flex;
     display: -moz-flex;
@@ -87,22 +82,23 @@
     justify-content: center;
     align-items: center;
 }
-.btnSlider{
-    color: #FFF;
-    font-size: 15pt;
-    font-family: 'arial';
-    letter-spacing: 1px;
-    padding: 10px 50px;
-    border: 1px solid #CCC;
-    background: rgba(13, 13, 13, 0.55);
-    border-radius: 31px;
-    text-decoration: none;
-    transition: .5s all;
-}
-.btnSlider:hover{
-    background: #111;
-    border: 1px solid #111;
-}
+/* Botón por defecto del slider */
+/* .btnSlider{ */
+/*     color: #FFF; */
+/*     font-size: 15pt; */
+/*     font-family: 'arial'; */
+/*     letter-spacing: 1px; */
+/*     padding: 10px 50px; */
+/*     border: 1px solid #CCC; */
+/*     background: rgba(13, 13, 13, 0.55); */
+/*     border-radius: 31px; */
+/*     text-decoration: none; */
+/*     transition: .5s all; */
+/* } */
+/* .btnSlider:hover{ */
+/*     background: #111; */
+/*     border: 1px solid #111; */
+/* } */
 .listslider {
     position: absolute;
     display: -webkit-flex;
@@ -160,8 +156,7 @@
 		padding: 10px 35px;
 	}
 	.btnSlider{
-		padding: 10px 30px;
-    	    font-size: 10pt;
+	    padding: 10px 30px;
+        	font-size: 10pt;
 	}
-
 }

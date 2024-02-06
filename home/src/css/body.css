@@ -27,3 +27,197 @@
 .title {
     padding-top: 1em;
 }
+
+/*secondhead es la propiedad del menú para las subpáginas, masthead es para el index*/
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+    }
+
+.hidden.menu {
+    display: none;
+}
+
+.masthead.menu {
+    margin-top: 0%;
+}
+
+.masthead.segment {
+    min-height: 396px;
+    padding: 0em 0em;
+}
+
+.secondhead.segment {
+    min-height: 300px;
+    padding: 1em 0em;
+}
+
+.thirdhead.segment {
+    min-height: 100px;
+    padding: 1em 0em;
+    margin-bottom: ;
+}
+
+.masthead .logo.item img {
+    margin-right: 1em;
+}
+
+.secondhead .logo.item img {
+    margin-right: 1em;
+}
+
+.thirdhead .logo.item img {
+    margin-right: 1em;
+}
+
+.masthead .ui.menu .ui.button {
+    margin-left: 0.5em;
+}
+
+.secondhead .ui.menu .ui.button {
+    margin-left: 0.5em;
+}
+
+.thirdhead .ui.menu .ui.button {
+    margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-size: 350%;
+    font-weight: normal;
+}
+
+.secondhead h1.ui.header {
+    margin-top: 2em;
+    margin-bottom: 0em;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.thirdhead h1.ui.header {
+    margin-top: 0.1em;
+    margin-bottom: 0em;
+    padding-bottom: 0.2em;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.masthead h2{
+    font-size: 1.7em;
+    font-weight: normal;
+}
+
+.secondhead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+    margin-left: 0%;
+}
+
+.thirdhead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+}
+
+.ui.vertical.stripe {
+    padding: 8em 0em;
+}
+
+.ui.vertical.stripe h3 {
+    font-size: 2em;
+}
+
+.ui.vertical.stripe .button + h3,
+.ui.vertical.stripe p + h3 {
+    margin-top: 3em;
+}
+
+.ui.vertical.stripe .floated.image {
+    clear: both;
+}
+
+.ui.vertical.stripe p {
+    font-size: 1.33em;
+}
+
+.ui.vertical.stripe .horizontal.divider {
+    margin: 3em 0em;
+}
+
+.quote.stripe.segment {
+    padding: 0em;
+}
+
+.quote.stripe.segment .grid .column {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.footer.segment {
+    padding: 5em 0em;
+}
+/*comportamiento del menú*/
+.inverted.primary.large.menu .toc.item {
+    display: none;
+}
+
+/* Manipula las vistas para móvil y resoluciones similares */
+@media only screen and (max-width: 700px) {
+    /* .ui.fixed.menu { */
+    /*     display: block !important; */
+    /* } */
+
+    .primary.pointing.menu .item,
+    .primary.pointing.menu .menu {
+        display: none;
+    }
+
+    .primary.pointing.menu .toc.item {
+        display: block;
+    }
+
+    .masthead.segment {
+        min-height: 350px;
+    }
+
+    .secondhead.segment {
+        min-height: 250px;
+    }
+
+    .thirdhead.segment {
+        min-height: 100px;
+    }
+
+    .masthead h1.ui.header {
+        font-size: 2em;
+        margin-top: 1.5em;
+    }
+
+    .secondhead h1.ui.header {
+        font-size: 2em;
+        margin-top: 1.5em;
+    }
+
+    .thirdhead h1.ui.header {
+        font-size: 2em;
+        margin-top: 0.5em;
+    }
+
+    .secondhead h2 {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+    }
+
+    .thirdhead h2 {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+    }
+
+    .masthead h2 {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+    }
+}
+

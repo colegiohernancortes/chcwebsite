@@ -1,8 +1,7 @@
-@fuentes-face {
-    fuentes-family: 'SF Pro Display';
+@font-face {
+    font-family: 'SF Pro Display';
     src: url('.././fuentes/sfpro.eot');
     src: url('.././fuentes/sfpro.eot?#iefix') format('embedded-opentype'),
-         url('.././fuentes/sfpro.woff2') format('woff2'),
          url('.././fuentes/sfpro.woff') format('woff'),
          url('.././fuentes/sfpro.ttf') format('truetype'),
          url('.././fuentes/sfpro.otf') format('opentype'),'
@@ -10,12 +9,11 @@
     font-style: normal;
 }
 
-@fuentes-face {
-    fuentes-family: 'SF Pro Display';
+@font-face {
+    font-family: 'SF Pro Display';
     src: url('.././fuentes/sfpro.eot');
     src: url('.././fuentes/sfpro.eot?#iefix') format('embedded-opentype'),
          url('.././fuentes/sfpro.woff2') format('woff2'),
-         url('.././fuentes/sfpro.woff') format('woff'),
          url('.././fuentes/sfpro.ttf') format('truetype'),
          url('.././fuentes/sfpro.otf') format('opentype'),'
          url('.././fuentes/sfpro.svg') format('svg');
