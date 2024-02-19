@@ -74,13 +74,13 @@
                         <!-- Botones del header, WhatsApp y SM Educamos -->
                         <div class="right item">
                             <div class="right menu">
-                                <a href="https://wa.me/+529933128843" class="ui green button" target="_blank">
+                                <a href="https://wa.me/+529933128843" class="ui green circular button" target="_blank">
                                     <i class="whatsapp icon"></i>
                                     WhatsApp
                                 </a>
                             </div>
                             <div class="menu">
-                                <a href="https://institutotabasco.educamos.com" class="ui white button" target="_blank">
+                                <a href="https://institutotabasco.educamos.com" class="ui white circular button" target="_blank">
                                     <i class="book icon"></i>
                                     Educamos
                                 </a>
@@ -118,7 +118,7 @@
             </div>
             <div class="ui vertical segment">
                 <div class="ui vertical segment">
-                    <!-- Div de banners publicitarios -->
+                    <!-- Div de banners principales -->
                     <!-- las imágenes deben ser de 1410 x 280 pc y móviles 360 x 400 -->
                     <section id="container-slider">
                         <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="arrow circle left icon"></i></a>
@@ -169,17 +169,59 @@
                             </li>
                         </ul>
                     </section>
+                    <!-- Botón que lleva a sección ¿Porqué estudiar con nosotros -->
                     <div class="ui center aligned container">
                         <div class="ui hidden divider"></div>
-                        <div class="ui animated fade circular huge red button" tabindex="0">
+                        <div type="submit" onClick="window.location='#porqueEstudiarConNosotros'" class="ui animated fade circular huge red button" tabindex="0">
                             <div class="visible content"><i class="ui down arrow icon"></i></div>
                             <div class="hidden content">Clic Aquí</div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- ¿Porqué estudiar con nosotros? -->
+            <div id="porqueEstudiarConNosotros" class="ui vertical stripe segment">
+                <div class="ui middle aligned stackable grid container">
+                    <div class="row">
+                        <!-- Aquí va el slider de conócenos xd -->
+                        <div class="six wide left floated column">
+                            <div class="ui large bordered rounded image pa-carousel-widget" style="width:650px; height:350px; display:none;"
+                                data-link="https://photos.app.goo.gl/u5FouDreSE3ex3qbA"
+                                data-title="Colegio Hernán Cortés"
+                                data-description="3 new items added to shared album"
+                                data-background-color="#ffffff">
+                              <object data="https://lh3.googleusercontent.com/pw/ABLVV86ngx43jxRZ2IoSJO71vAjgEZcbJ04XTGxUh_snHILfxyAGUVCxz0MWpxAjl7AYXPkj9N6QWR7rfsoNrs_4Wt2vNpLg5VUBeCSq0cNcCpKZBJKqGQ=w1920-h1080"></object>
+                              <object data="https://lh3.googleusercontent.com/pw/ABLVV8783f7E82KURw7gZnVdGOFx1cHV4mFvHL1T9xUGSesBeL33Tg4ZLktjqdPsJhBxfwEjsIU2bLv7ViJGShVnly9MPsVGwysiFDd_PCzke4qpEMf9xQ=w1920-h1080"></object>
+                              <object data="https://lh3.googleusercontent.com/pw/ABLVV85kwsxyHp2hYIlkPrHT7ryoXyOsejWQ26SotwL-_30cYbKUFROATzrHFWXRls1GgBCaIjohYqeymLtZEtu-DtnIeb8hPaLRGzpRRL1D5F-1j5R5og=w1920-h1080"></object>
+                            </div>
+                        </div>
+                        <div class="eight wide column">
+                            <h3 class="ui header">🧐 ¿Porqué estudiar con nosotros?</h3>
+                            <p class="justificado">
+                                Somos un Centro Educativo Católico, formamos parte de la
+                                <a href="https://www.escuelassjs.org/">Congregación de Siervas de Jesús Sacramentado.</a>
+                                Nuestro centro es Jesucristo Eucaristía y vivimos bajo la protección de la Santísima Virgen María.
+                                Estamos atentos a las necesidades actuales, establecemos un proceso de mejora continua,
+                                a fin de proporcionar una educación de calidad y <span class="negritas">"a la altura de los tiempos"</span>
+                            </p>
+                            <!-- <h3 class="ui header">En nuestro proceso educativo, pretendemos: </h3> -->
+                            <!-- <p> -->
+                            <!--     <div class="ui big list"> -->
+                            <!--       <div class="item"><b>🙏</b>Ser un centro de evangelización</div> -->
+                            <!--       <div class="item"><b>📈</b>Promover la calidad de la educación</div> -->
+                            <!--     </div> -->
+                            <!-- </p> -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="center aligned column">
+                            <a onClick="window.location='#ofertaEducativa'" class="ui red huge circular button">Checa nuestra Oferta Educativa</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- Oferta educativa... -->
-            <div class="ui vertical stripe segment">
+            <div id="ofertaEducativa" class="ui vertical stripe segment">
                 <div class="ui equal width stackable internally grid">
                     <div class="center aligned row">
                         <div class="column">
@@ -204,6 +246,34 @@
                                 <p>Lo mejor para el desarrollo de los adolescentes.</p>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <!-- div de visión y misión -->
+            <div class="ui vertical stripe segment">
+                <div class="ui container two column grid">
+                    <div class="one column row">
+                        <div class="column">
+                            <h1 class="ui header">
+                                <p class="dorado">Nuestra…</p>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h1 class="header">Misión</h1>
+                        <p class="cursiva justificado">Anunciar el Reino de Dios y colaborar con los padres de familia en la formación
+                            integral de los alumnos, a la luz del Evangelio, teniendo como centro a Jesús Sacramentado,
+                            a fin de lograr auténticos hijos de Dios y ciudadanos de la Patria (II Crón. SJS).
+                        </p>
+                        <img class="ui centered image" src="./data/img/mision.png"/>
+                    </div>
+                    <div class="column">
+                        <h1 class="header">Visión</h1>
+                        <p class="cursiva justificado">Ser Escuela SJS innovadora, a la vanguardia en procesos educativos de calidad,
+                            donde se forman personas competentes, capaces de enfrentar con éxito, los retos del mundo actual,
+                            con dimensión trascendente.
+                        </p>
+                        <img class="ui centered image" src="./data/img/vision.png"/>
                     </div>
                 </div>
             </div>
@@ -253,6 +323,7 @@
             </div>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
         <script src="./src/semantic/semantic.min.js"></script>
         <script src="./src/js/funciones.js"></script>
         <script src="./src/js/slider.js"></script>

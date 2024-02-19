@@ -6,6 +6,10 @@
     font-weight: bold;
 }
 
+.cursiva {
+    font-style: italic;
+}
+
 .justificado {
     text-align: justify;
 }
@@ -14,15 +18,26 @@
     text-align: left;
 }
 
-.arcoiris{
+.dorado{
   font-size:128px;
   color:transparent;
-  background: linear-gradient(270deg,#1e5799,#2ce0bf,#76dd2c,#dba62b,#ff1493,#1e5799);
-  animation:rainbow 64s linear infinite;
+  background: linear-gradient(270deg,#f7ef8a,#d2ac47,#edc967,#dfbd69,#926f34,#f9f295);
+  animation:gradiente 64s linear infinite;
   background-size: 60% 100%;
   -webkit-background-clip:text;
   text-align: center;
 }
-@keyframes rainbow{
+
+.arcoiris{
+  font-size:128px;
+  color:transparent;
+  background: linear-gradient(270deg,#1e5799,#2ce0bf,#76dd2c,#dba62b,#ff1493,#1e5799);
+  animation:gradiente 64s linear infinite;
+  background-size: 60% 100%;
+  -webkit-background-clip:text;
+  text-align: center;
+}
+
+@keyframes gradiente{
   0%{background-position-x:0}
   to{background-position-x:10240px}
