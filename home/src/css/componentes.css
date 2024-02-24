@@ -23,9 +23,26 @@
 }
 
 .dorado{
-  font-size:128px;
   color:transparent;
-  background: linear-gradient(270deg,#f7ef8a,#d2ac47,#edc967,#dfbd69,#926f34,#f9f295);
+  background: linear-gradient(270deg,#f7ef8a,#d2ac47,#edc967,#dfbd69,#4c0805,#f9f295);
+  animation:gradiente 64s linear infinite;
+  background-size: 60% 100%;
+  -webkit-background-clip:text;
+  text-align: center;
+}
+
+.aquamarina{
+  color:transparent;
+  background: linear-gradient(270deg,#061829,#10374a,#165668,#104046,#034948,#005d5c);
+  animation:gradiente 64s linear infinite;
+  background-size: 60% 100%;
+  -webkit-background-clip:text;
+  text-align: center;
+}
+
+.sangre{
+  color:transparent;
+  background: linear-gradient(270deg,#d91a1a,#b41c1c,#6b1f20,#402022,#212224,#990f02);
   animation:gradiente 64s linear infinite;
   background-size: 60% 100%;
   -webkit-background-clip:text;
@@ -33,7 +50,6 @@
 }
 
 .arcoiris{
-  font-size:128px;
   color:transparent;
   background: linear-gradient(270deg,#1e5799,#2ce0bf,#76dd2c,#dba62b,#ff1493,#1e5799);
   animation:gradiente 64s linear infinite;

@@ -16,6 +16,19 @@
     padding: 5em 0em;
 }
 
+#ofertaEducativa {
+    background-image: url("../.././data/img/fondochc.jpg");
+    background-size: cover;
+}
+
+#ofertaPrimaria, #ofertaSecundaria {
+    background-color: #004D40;
+}
+
+#primariaLink, #secundariaLink {
+    color: #ffffff;
+}
+
 #encabezado {
     background-color: rgba(19,79,92,1);
 }
