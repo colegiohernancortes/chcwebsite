@@ -16,9 +16,36 @@
     padding: 5em 0em;
 }
 
-#ofertaEducativa {
+/*#ofertaEducativa {
     background-image: url("../.././data/img/fondochc.jpg");
     background-size: cover;
+}*/
+#seccionPrimaria {
+    background-image: url("../../data/img/primaria-ban.jpg");
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 350px;
+    margin-left: 9px;
+}
+#seccionSecundaria {
+    background-image: url("../../data/img/secundaria-ban.jpg");
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 350px;
+    margin-right: 9px;
+}
+
+.enlace:hover {
+    text-decoration: underline;
+    text-decoration-color: #4183C4;
+}
+
+#seccionPrimaria h1 {
+    font-size: 40pt;
+}
+
+#seccionSecundaria h1 {
+    font-size: 40pt;
 }
 
 #ofertaPrimaria, #ofertaSecundaria {
@@ -188,6 +215,13 @@ body {
     /* .ui.fixed.menu { */
     /*     display: block !important; */
     /* } */
+
+    #seccionPrimaria {
+        padding-right: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 50%;
+    }
 
     .primary.pointing.menu .item,
     .primary.pointing.menu .menu {
