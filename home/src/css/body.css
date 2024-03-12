@@ -216,12 +216,12 @@ body {
     /*     display: block !important; */
     /* } */
 
-    #seccionPrimaria {
-        padding-right: 40%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 50%;
-    }
+    /* #seccionPrimaria { */
+    /*     padding-right: 40%; */
+    /*     margin-left: 5%; */
+    /*     margin-right: 5%; */
+    /*     margin-bottom: 50%; */
+    /* } */
 
     .primary.pointing.menu .item,
     .primary.pointing.menu .menu {
