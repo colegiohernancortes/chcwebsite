@@ -10,7 +10,9 @@
  */
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
 /*Fuente personal*/
-@import url('.././css/sfpro.css');
+/* TODO: Luego quitar esta línea */
+/* @import url('.././css/sfpro.css'); */
+@import url('https://raw.githubusercontent.com/ValorKand/SanFrancisco-Font/main/css/sfpro.css');
 /*!
  * # Semantic UI 2.5.0 - Reset
  * http://github.com/semantic-org/semantic-ui/

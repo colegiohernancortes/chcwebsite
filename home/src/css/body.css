@@ -20,6 +20,7 @@
     background-image: url("../.././data/img/fondochc.jpg");
     background-size: cover;
 }*/
+
 #seccionPrimaria {
     background-image: url("../../data/img/primaria-ban.jpg");
     background-size: cover;
@@ -38,6 +39,32 @@
 .enlace:hover {
     text-decoration: underline;
     text-decoration-color: #4183C4;
+}
+
+#primariaSegment{
+    background-color: #e9bfde;
+}
+
+#secundariaSegment{
+    background-color: #d2e1b4;
+}
+
+#extraSegment{
+    background-color: #d8f1ff;;
+}
+
+#ofertaTitulo {
+    font-size: 60pt;
+    font-weight: bold;
+}
+
+#ofertaTexto {
+    font-size: 25pt;
+    color: #606060;
+    letter-spacing: .004em;
+    line-height: 1.125;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 #seccionPrimaria h1 {

@@ -24,7 +24,7 @@
 
 .dorado{
   color:transparent;
-  background: linear-gradient(270deg,#f7ef8a,#d2ac47,#edc967,#dfbd69,#4c0805,#f9f295);
+  background: linear-gradient(270deg,#f7ef8a,#d2ac47,#edc967,#dfbd69,#ccaf20,#f9f295);
   animation:gradiente 64s linear infinite;
   background-size: 60% 100%;
   -webkit-background-clip:text;
