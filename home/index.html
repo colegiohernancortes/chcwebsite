@@ -357,8 +357,8 @@
             <div id="ofertaEducativa">
                 <!-- TODO: Ponerle aquí que sea para pc y moviles -->
                 <div class="ui center aligned segment">
-                    <h1 class="header">la mejor educación</h1>
-                    <h1 id="ofertaTitulo" class="ui header">Inspiración para todos</h1>
+                    <h1 id="ofertaMiniTitulo" class="header">La mejor educación</h1>
+                    <h1 id="ofertaTitulo" class="negritas ui header">Inspiración para todos</h1>
                     <h2 class="sub header">
                         <p id="ofertaTexto">
                             Todos tenemos nuestra propia manera de aprender y
@@ -369,10 +369,11 @@
                             siga avanzando.
                         </p>
                     </h2>
-                    <div class="ui three column doubling relaxed grid">
+                    <!-- Este div es solo para computadoras -->
+                    <div class="computer only ui three column doubling relaxed grid container">
                         <div class="column">
                             <div id="primariaSegment" class="ui segment">
-                                <img src="./data/img/primaria1.jpg" class="ui image"></img>
+                                <img src="./data/img/primaria1.jpg" class="ui fluid image"></img>
                                 <h3 class="ui header">Primaria</h3>
                                 <h2 class="negritas content">Despierta la creatividad en cada alumno.</h2>
                                 <h2><a href="#" class="enlace">Más información<i class="ui angle right icon"></i></a></h2>
@@ -394,6 +395,37 @@
                                 <h2><a href="#" class="enlace">Más información<i class="ui angle right icon"></i></a></h2>
                             </div>
                         </div>
+                    </div>
+                    <!-- esta sección es para móviles xd -->
+                    <div class="mobile only ui three column doubling relaxed grid container">
+                        <div class="row">
+                            <div id="primariaSegment" class="ui segment">
+                                <img src="./data/img/primaria1.jpg" class="ui fluid image"></img>
+                                <h3 class="ui header">Primaria</h3>
+                                <h2 class="negritas content">Despierta la creatividad en cada alumno.</h2>
+                                <h2><a href="#" class="enlace">Más información<i class="ui angle right icon"></i></a></h2>
+                            </div>
+                        </div>
+                        <div class="ui hidden divider"></div>
+                        <div class="row">
+                            <div id="secundariaSegment" class="ui segment">
+                                <img src="./data/img/primaria2.jpg" class="ui image"></img>
+                                <h3 class="ui header">Secundaria</h3>
+                                <h2 class="negritas content">Enseña. Innova. Inspira de mil maneras</h2>
+                                <h2><a href="#" class="enlace">Más información<i class="ui angle right icon"></i></a></h2>
+                            </div>
+                        </div>
+                        <div class="ui hidden divider"></div>
+                        <div class="row">
+                            <div id="extraSegment" class="ui segment">
+                                <img src="./data/img/primaria1.jpg" class="ui image"></img>
+                                <h3 class="ui header">Extracurriculares</h3>
+                                <h2 class="negritas content">Aprende sin límites.</h2>
+                                <div class="ui container"></div>
+                                <h2><a href="#" class="enlace">Más información<i class="ui angle right icon"></i></a></h2>
+                            </div>
+                        </div>
+                        <div class="ui hidden divider"></div>
                     </div>
                 </div>
             </div>

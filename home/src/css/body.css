@@ -50,7 +50,8 @@
 }
 
 #extraSegment{
-    background-color: #d8f1ff;;
+    background-color: #d8f1ff;
+    padding-bottom: 13%;
 }
 
 #ofertaTitulo {
@@ -243,12 +244,21 @@ body {
     /*     display: block !important; */
     /* } */
 
-    /* #seccionPrimaria { */
-    /*     padding-right: 40%; */
-    /*     margin-left: 5%; */
-    /*     margin-right: 5%; */
-    /*     margin-bottom: 50%; */
-    /* } */
+    #ofertaMiniTitulo {
+        margin-top: 20pt;
+        font-size: 19pt;
+        line-height: 1.1pt;
+    }
+
+    #ofertaTitulo {
+        font-size: 44pt;
+    }
+
+    #ofertaTexto {
+        font-size: 18pt;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 
     .primary.pointing.menu .item,
     .primary.pointing.menu .menu {
