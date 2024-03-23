@@ -16,6 +16,25 @@
     padding: 5em 0em;
 }
 
+.seccion {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#primariaTitulo, #secundariaTitulo {
+    font-size: 50pt;
+}
+
+#primariaSubTitulo, #secundariaSubTitulo {
+    font-size: 20pt;
+    padding-bottom: 20%;
+}
+
+#Primaria {
+    background-image: url(../../data/img/primaria-fondo.jpg);
+    background-size: cover;
+}
+
 /*#ofertaEducativa {
     background-image: url("../.././data/img/fondochc.jpg");
     background-size: cover;
@@ -39,6 +58,10 @@
 .enlace:hover {
     text-decoration: underline;
     text-decoration-color: #4183C4;
+}
+
+#extraSegment.enlace {
+    padding-top: 20pt;
 }
 
 #primariaSegment{
