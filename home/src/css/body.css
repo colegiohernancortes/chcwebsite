@@ -25,34 +25,44 @@
     font-size: 50pt;
 }
 
-#primariaSubTitulo, #secundariaSubTitulo {
+#extraTitulo {
+    font-size: 65pt;
+    line-height: 100%;
+}
+
+#extraTitulo1 {
+    color: #c80045;
+}
+
+#extraTexto {
+    font-size: x-large;
+}
+
+#primariaSubTitulo {
     font-size: 20pt;
-    padding-bottom: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#secundariaSubTitulo {
+    font-size: 20pt;
+    padding-top: 7%;
+    padding-bottom: 10%;
 }
 
 #Primaria {
-    background-image: url(../../data/img/primaria-fondo.jpg);
+    background-image: url("../../data/img/primaria-fondo.jpg");
     background-size: cover;
 }
 
-/*#ofertaEducativa {
-    background-image: url("../.././data/img/fondochc.jpg");
+#Secundaria {
+    background-image: url("../../data/img/secundaria-fondo.jpg");
     background-size: cover;
-}*/
-
-#seccionPrimaria {
-    background-image: url("../../data/img/primaria-ban.jpg");
-    background-size: cover;
-    padding-top: 10%;
-    padding-bottom: 350px;
-    margin-left: 9px;
 }
-#seccionSecundaria {
-    background-image: url("../../data/img/secundaria-ban.jpg");
+
+#Extra {
+    background-image: url("../../data/img/extra-fondo.jpg");
     background-size: cover;
-    padding-top: 10%;
-    padding-bottom: 350px;
-    margin-right: 9px;
 }
 
 .enlace:hover {
@@ -74,7 +84,7 @@
 
 #extraSegment{
     background-color: #d8f1ff;
-    padding-bottom: 13%;
+    /*padding-bottom: 13%;*/
 }
 
 #ofertaTitulo {
@@ -89,14 +99,6 @@
     line-height: 1.125;
     margin-left: 20%;
     margin-right: 20%;
-}
-
-#seccionPrimaria h1 {
-    font-size: 40pt;
-}
-
-#seccionSecundaria h1 {
-    font-size: 40pt;
 }
 
 #ofertaPrimaria, #ofertaSecundaria {
