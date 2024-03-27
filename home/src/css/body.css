@@ -25,6 +25,10 @@
     font-size: 50pt;
 }
 
+#clasesExtra{
+    padding-top: 10%;
+}
+
 #extraTitulo {
     font-size: 65pt;
     line-height: 100%;
@@ -36,6 +40,15 @@
 
 #extraTexto {
     font-size: x-large;
+}
+
+#programas, #programas2 {
+    padding-top: 10%;
+}
+
+#botoncitoContacto {
+    padding-top: 5%;
+    padding-bottom: 10%;
 }
 
 #primariaSubTitulo {
