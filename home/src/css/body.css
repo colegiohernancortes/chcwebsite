@@ -21,8 +21,15 @@
     padding-bottom: 10%;
 }
 
-#primariaTitulo, #secundariaTitulo {
+/* eliminar este */
+#titulo1 {
     font-size: 50pt;
+}
+
+#titulo2 {
+    font-size: 20pt;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 #clasesExtra{
@@ -48,18 +55,6 @@
 
 #botoncitoContacto {
     padding-top: 5%;
-    padding-bottom: 10%;
-}
-
-#primariaSubTitulo {
-    font-size: 20pt;
-    padding-top: 10%;
-    padding-bottom: 10%;
-}
-
-#secundariaSubTitulo {
-    font-size: 20pt;
-    padding-top: 7%;
     padding-bottom: 10%;
 }
 
@@ -100,8 +95,13 @@
     /*padding-bottom: 13%;*/
 }
 
+#ofertaMiniTitulo {
+    margin-top: 5%;
+}
+
 #ofertaTitulo {
     font-size: 60pt;
+    line-height: 90%;
     font-weight: bold;
 }
 
@@ -281,9 +281,32 @@ body {
     /* .ui.fixed.menu { */
     /*     display: block !important; */
     /* } */
+    
+    #extraTitulo {
+        font-size: 35pt;
+        line-height: 100%;
+    }
+    
+    #extraTitulo1 {
+        color: #c80045;
+    }
+    
+    #extraTexto {
+        font-size: large;
+    }
+
+    #titulo1 {
+        font-size: 30pt;
+    }
+    
+    #titulo2 {
+        font-size: 18pt;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
 
     #ofertaMiniTitulo {
-        margin-top: 20pt;
+        margin-top: 20%;
         font-size: 19pt;
         line-height: 1.1pt;
     }

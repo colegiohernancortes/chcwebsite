@@ -24,7 +24,7 @@
 
 .dorado{
   color:transparent;
-  background: linear-gradient(270deg,#f7ef8a,#d2ac47,#edc967,#dfbd69,#ccaf20,#f9f295);
+  background: linear-gradient(270deg,#f7ef8a,#d2ac47,#edc967,#dfbd69,#ccaf20,#b7b26c);
   animation:gradiente 64s linear infinite;
   background-size: 60% 100%;
   -webkit-background-clip:text;
@@ -42,7 +42,7 @@
 
 .sangre{
   color:transparent;
-  background: linear-gradient(270deg,#d91a1a,#b41c1c,#6b1f20,#402022,#212224,#990f02);
+  background: linear-gradient(270deg,#d91a1a,#b41c1c,#912a2c,#4e1a1d,#761010,#990f02);
   animation:gradiente 64s linear infinite;
   background-size: 60% 100%;
   -webkit-background-clip:text;
@@ -61,3 +61,4 @@
 @keyframes gradiente{
   0%{background-position-x:0}
   to{background-position-x:10240px}
+}
