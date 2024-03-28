@@ -58,6 +58,11 @@
     padding-bottom: 10%;
 }
 
+.cabecera.ui {
+    box-shadow: inset 0 0 0 1000px #134f5ca5;
+}
+
+
 #Primaria {
     background-image: url("../../data/img/primaria-fondo.jpg");
     background-size: cover;
@@ -130,11 +135,12 @@
 }
 
 #encabezado {
-    background-color: rgba(19,79,92,1);
+    background-color: #134F5C;
 }
 
 #pie {
     background-color: #400108;
+    margin-top: 0cap;
 }
 
 .title {
