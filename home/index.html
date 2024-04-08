@@ -15,14 +15,13 @@
         <link type="text/css" rel="stylesheet" href="./src/css/componentes.css"></link>
     </head>
     <body id="root">
-        <!-- TODO: actualizar con la razón social del colegio ajsjsjs -->
         <!-- Modal (ventana emergente) de aviso de privacidad -->
         <div id="privacidad" class="ui small modal">
             <i class="close icon"></i>
             <div class="header">Aviso de privacidad integral</div>
             <div class="justificado content">
                 <p>
-                    Colegio Tabasco de Niñas A.C. mejor conocido como Colegio Hernán Cortés,
+                    Colegio Hernán Cortés A.C. mejor conocido como Colegio Hernán Cortés,
                     con domicilio en Tlalpan, Centro, 14000, Ciudad de México, México.
                     y portal de internet colegiohernancortez.github.io/chcwebsite, es el responsable del uso y
                     protección de sus datos personales, y al respecto le informamos lo siguiente:
@@ -62,7 +61,7 @@
                 </p>
                 <p>
                     Para el ejercicio de cualquiera de los derechos ARCO, debe enviar una petición
-                    vía correo electrónico a PONERCORREO y deberá contener:
+                    vía correo electrónico a colegiohernancortez.edu@gmail.com y deberá contener:
                 </p>
                 <div class="ui list">
                     <div class="item">
@@ -163,8 +162,7 @@
                     <a class="item" href="./paginas/secciones/extracurriculares.html">Extracurriculares</a>
                 </div>
             </div>
-            <a class="item header" onClick="window.location='#ofertaEducativa'"><i class="graduation cap icon"></i>Oferta Educativa</a>
-            <a class="item header" href="https://institutotabasco.educamos.com" target="_blank"><i class="book icon"></i>Educamos</a>
+            <a class="item header" href="https://colegiohernancortestlalpan.educamos.com" target="_blank"><i class="book icon"></i>Educamos</a>
         </div>
         <!-- Contenido de la página -->
         <div class="pusher">
@@ -172,7 +170,6 @@
                 <!-- Menú solo para computadora -->
                 <div class="computer only ui grid">
                     <div id="encabezado" class="ui inverted primary pointing large borderless fixed menu">
-                        <!-- div del logo del header -->
                         <!-- div del logo del header -->
                         <div class="item">
                             <div class="ui logo shape">
@@ -210,7 +207,7 @@
                                 </a>
                             </div>
                             <div class="menu">
-                                <a href="https://institutotabasco.educamos.com" class="ui white circular button" target="_blank">
+                                <a href="https://colegiohernancortestlalpan.educamos.com" class="ui white circular button" target="_blank">
                                     <i class="book icon"></i>
                                     Educamos
                                 </a>
@@ -266,7 +263,7 @@
                                         <img src="./data/ui/logo.png" class="ui centered tiny image"></img>
                                         <h2>Colegio Hernán Cortés</h2>
                                         <p>Institución educativa católica, cuyo centro es Jesús Eucaristía y la Santísima Virgen, su protectora.</p>
-                                        <a href="#" class="ui inverted button">Ver más</a>
+                                        <a href="#" class="ui inverted circular button">Ver más</a>
                                     </div>
                                 </div>
                             </li>
@@ -275,7 +272,7 @@
                                     <div>
                                         <h2>¡Fieles al Deber!</h2>
                                         <p>Fidelidad a los principios rectores contenidos en el ideario y el esfuerzo por formar comunidades educativas, fieles a sus deberes en las diferentes circunstancias de la vida.</p>
-                                        <a href="#" class="ui inverted button">Ver más</a>
+                                        <a href="#" class="ui inverted circular button">Ver más</a>
                                     </div>
                                 </div>
                             </li>
@@ -284,7 +281,7 @@
                                     <div>
                                         <h2>Somos un centro de evangelización</h2>
                                         <p>Favorecemos una actitud contemplativa de adoración a Jesús Sacramentado y de amor e imitación a la Santísima Virgen María.</p>
-                                        <a href="#" class="ui inverted button">Ver más</a>
+                                        <a href="#" class="ui inverted circular button">Ver más</a>
                                     </div>
                                 </div>
                             </li>
@@ -293,7 +290,7 @@
                                     <div>
                                         <h2>Tu colegio de confianza</h2>
                                         <p>El mejor colegio de todo Tlalpan</p>
-                                        <a href="#" class="ui inverted button">Ver más</a>
+                                        <a href="#" class="ui inverted circular button">Ver más</a>
                                     </div>
                                 </div>
                             </li>
@@ -334,13 +331,6 @@
                                 Estamos atentos a las necesidades actuales, establecemos un proceso de mejora continua,
                                 a fin de proporcionar una educación de calidad y <span class="negritas">"a la altura de los tiempos"</span>
                             </p>
-                            <!-- <h3 class="ui header">En nuestro proceso educativo, pretendemos: </h3> -->
-                            <!-- <p> -->
-                            <!--     <div class="ui big list"> -->
-                            <!--       <div class="item"><b>🙏</b>Ser un centro de evangelización</div> -->
-                            <!--       <div class="item"><b>📈</b>Promover la calidad de la educación</div> -->
-                            <!--     </div> -->
-                            <!-- </p> -->
                         </div>
                     </div>
                     <div class="row">
@@ -352,7 +342,6 @@
             </div>
             <!-- Oferta educativa... -->
             <div id="ofertaEducativa">
-                <!-- TODO: Ponerle aquí que sea para pc y moviles -->
                 <div class="ui center aligned segment">
                     <h1 id="ofertaMiniTitulo" class="header">La mejor educación</h1>
                     <h1 id="ofertaTitulo" class="negritas ui header">Inspiración para todos</h1>
@@ -504,18 +493,19 @@
                             </div>
                         </div>
                     </div>
-                    <div class="ui hidden divider"></div>
+                    <!-- desocultar si se usa el recorrido virtual -->
+                    <!-- <div class="ui hidden divider"></div>
                     <div class="row">
                         <div class="center aligned column">
                             <a href="./paginas/extra/instalaciones.html" target="_blank" class="ui yellow huge circular button">Recorrido 360 🔮</a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <!-- Sección de ubicación -->
             <div class="ui center aligned black inverted stackable segment">
                 <!-- la sección de ubicación que es sólo para pc -->
-                <div class="computer only ui doubling grid container">
+                <div class="computer only tablet only ui doubling grid container">
                     <div class="two column row">
                         <div class="column">
                             <h1 class="header">🗺️ Ubícanos</h1>
@@ -537,9 +527,13 @@
                                             <a class="ui massive circular pink button" href="#"><i class="ui instagram icon"></i>Instagram</a>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="two column row">
                                         <div class="column">
                                             <a class="ui massive circular red button" href="#"><i class="ui youtube icon"></i>YouTube</a>
+                                        </div>
+                                        <div class="column">
+                                            <a class="ui massive circular button" href="mailto:colegiohernancortez.edu@gmail.com"><i class="ui envelope icon"></i>Correo electrónico</a>
+                                            <div class="ui hidden divider"></div>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -584,6 +578,10 @@
                             <a class="ui circular red button" href="#"><i class="ui youtube icon"></i>YouTube</a>
                             <div class="ui hidden divider"></div>
                         </div>
+                        <div>
+                            <a class="ui circular button" href="mailto:colegiohernancortez.edu@gmail.com"><i class="ui envelope icon"></i>Correo electrónico</a>
+                            <div class="ui hidden divider"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -594,7 +592,7 @@
                         <div class="three wide column">
                         <h4 class="ui inverted header">Acerca de</h4>
                             <div class="ui inverted link list">
-                                <a href="#" class="item">Hecho por Vales Soft – Parte de Vales Corp</a>
+                                <a href="https://valorkand.github.io/vcwebsite" class="item">Hecho por Vales Corp</a>
                                 <a href="#" class="item">Ing. Adonay David Hernández Vales</a>
                                 <a href="#" class="item">Lic. Daniela Carrasco Bautista</a>
                             </div>
